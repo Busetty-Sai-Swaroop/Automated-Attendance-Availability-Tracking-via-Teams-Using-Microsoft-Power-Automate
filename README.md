@@ -95,25 +95,25 @@ The Availability_Flow is a fully automated solution created using Microsoft Powe
 
 ### 7. Purpose and Benefits
 
-Feature - Description
-|----------------------|
-| Daily Automation -- Avoids manual check-ins |
-| Personalized -- Uses name for personal message |
-| Scalable -- Works for small or large teams |
-| Accurate -- Logs responses with timestamp |
-| Centralized -- All data is stored in one place |
+Feature | Description
+|-------|--------------|
+| Daily Automation | Avoids manual check-ins |
+| Personalized | Uses name for personal message |
+| Scalable | Works for small or large teams |
+| Accurate | Logs responses with timestamp |
+| Centralized | All data is stored in one place |
 
 ---
 
 ### 8. Tools Used
 
-| Tool - Purpose |
-|---------------|
-| Power Automate -- Main automation engine |
-| Microsoft Teams -- Sends Adaptive Card |
-| Adaptive Cards v1.2 -- Collects responses |
-| Excel Online (Business) -- Stores input & output data |
-| OneDrive/SharePoint |-- Hosts Excel files |
+| Tool | Purpose |
+|------|---------|
+| Power Automate | Main automation engine |
+| Microsoft Teams | Sends Adaptive Card |
+| Adaptive Cards v1.2 | Collects responses |
+| Excel Online (Business) | Stores input & output data |
+| OneDrive/SharePoint | Hosts Excel files |
 
 ### Image of the Flow
 ![image](https://github.com/user-attachments/assets/dbf8ad9f-4b9d-4754-8935-6210e22eeee4)
