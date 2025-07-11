@@ -1,0 +1,33 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Hi @{items('Apply_to_each')?['Name']}, Are you available today?",
+      "wrap": true,
+      "weight": "Bolder",
+      "size": "Medium"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "availability",
+      "style": "expanded",
+      "isRequired": true,
+      "choices": [
+        { "title": "Yes", "value": "Yes" },
+        { "title": "No", "value": "No" }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit",
+      "data": {
+        "submitLocation": "availability"
+      }
+    }
+  ]
+}
